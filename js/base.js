@@ -6,9 +6,12 @@ $(function () {
     var current_y = 0;
 
     // initialize
+    // width
     var slides = $('.slide').length;  
     $("#contents").css("width", SLIDE_WIDTH * slides + "px");
     $(".slide").css("float", "left");
+
+    // progress bar
     var progress_top = $(window).height() - 20;
     $(".progress").css("top", progress_top + "px");
 
