@@ -14,8 +14,8 @@ table,th,td,embed,object {
 .slide {
   width: 1280px;
   height: 800px;
-  background-color: #A9A9A9;
-  float:left;
+  background: -webkit-gradient(linear, left top, left bottom, from(#020202), to(#6f6e7f));)))
+  float: left;
 }
 
 
