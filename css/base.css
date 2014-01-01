@@ -1,0 +1,21 @@
+body,div,pre,p,blockquote,
+form,fieldset,input,textarea,select,option,
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+table,th,td,embed,object {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+#contens {
+  height: 800px;
+}
+
+.slide {
+  width: 1280px;
+  height: 800px;
+  background-color: #A9A9A9;
+  float:left;
+}
+
+
