@@ -8,6 +8,8 @@ $(function () {
     // initialize
     var slides = $('.slide').length;  
     $("#contents").css("width", SLIDE_WIDTH * slides + "px");
+    $(".slide").css("float", "left");
+
 
     // slide animation
     $(window).keypress(function (e) {
