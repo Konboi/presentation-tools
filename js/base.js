@@ -2,12 +2,12 @@ $(function () {
     // Fixed number
     var SLIDE_WIDTH = 1280;
     var SLIDE_HEIGHT = 800;
-    var current_x = 0;  
+    var current_x = 0;
     var current_y = 0;
 
     // initialize
     // width
-    var slides = $('.slide').length;  
+    var slides = $('.slide').length;
     $("#contents").css("width", SLIDE_WIDTH * slides + "px");
     $(".slide").css("float", "left");
 
