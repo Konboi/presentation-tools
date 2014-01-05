@@ -31,7 +31,7 @@ $(function () {
     $(window).keypress(function (e) {
         if (e.which === 37 || e.which === 8) {
           current_x -= SLIDE_WIDTH;
-          current_slide_number == 1;
+          current_slide_number -= 1;
           $('body').animate({scrollLeft: current_x, scrollTop: current_y}, 1200);
         }
     });
