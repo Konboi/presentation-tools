@@ -17,7 +17,8 @@ $(function () {
     $("#progress-bar").css("width", (SLIDE_WIDTH/slides) * current_slide_number);
 
     // next slide
-    $(window).keypress(function (e) {
+    $(window).keyup(function (e) {
+        console.log(e.which);
         if (e.which === 13 || e.which === 32 || e.which === 39) {
           current_x += SLIDE_WIDTH;
           current_slide_number += 1;

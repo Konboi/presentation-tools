@@ -7,6 +7,10 @@ table,th,td,embed,object {
   vertical-align: baseline;
 }
 
+body {
+  overflow: hidden;
+}
+
 #contents {
   height: 800px;
   color: #FFFFFF;
