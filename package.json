@@ -1,0 +1,13 @@
+{
+  "name": "presentation-tools",
+  "version": "0.0.1",
+  "description": "this is my presentation tools",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Konboi/presentation-tools.git"
+  },
+  "author": "Konboi",
+  "dependencies": {
+      "socket.io": "*"
+  }
+}
