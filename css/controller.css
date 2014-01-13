@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  background: #000000;
+}
+
+#content {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.controller {
+  width: 100%;
+}
+
+.button {
+  width: 300px;
+  height:200px;
+  margin: 4px;
+  float: left;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #ccc;
+  font-weight: bold;
+  cursor: pointer;
+  color: #666;
+}
+
+#prev, #next {
+  margin-top: 60px;
+  font-size: 40pt;
+  color: #FF0000;
+}
+
+

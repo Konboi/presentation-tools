@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
- <script src="/socket.io/socket.io.js"></script>
- <script src="./js/slide_controller.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/controller.css" media="all">
+    <title>slide controller</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="content">
+        <div class="controller">
+          <div class="button">
+            <div id="prev">PREV</div>
+          </div>
+          <div class="button">
+            <div id="next">NEXT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/lib/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/slide_controller.js"></script>
+  </body>
 </html>

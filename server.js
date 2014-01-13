@@ -51,6 +51,21 @@ var io = require('socket.io').listen(
 io.sockets.on('connection', function (socket) {
     socket.on('push', function (message) {
         console.log(message);
-        socket.broadcast.emit('push2', 'server');
+        socket.broadcast.emit('push2', message);
+    });
+
+    socket.on('controller', function (command) {
+        switch (command) {
+          case 'prev':
+          socket.broadcast.emit('prev');
+          break;
+
+          case 'next':
+          socket.broadcast.emit('next');
+          break;
+
+          default:
+
+        }
     });
 });
