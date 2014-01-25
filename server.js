@@ -65,7 +65,11 @@ io.sockets.on('connection', function (socket) {
           break;
 
           default:
-
         }
+    });
+
+    socket.on('question', function (question, answer) {
+        console.log(question);
+        socket.broadcast.emit('answer', {"question": question, "answer": answer});
     });
 });
